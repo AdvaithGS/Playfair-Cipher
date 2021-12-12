@@ -6,4 +6,4 @@ def get_coords(s):
 
 def get_letter(s):
     return list(chars.keys())[list(chars.values()).index(s)]
-print(get_letter(list(map(int,input().split()))))
+#print(get_letter(list(map(int,input().split()))))

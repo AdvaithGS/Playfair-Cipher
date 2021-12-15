@@ -1,6 +1,6 @@
 from grid import get_coords,get_letter
 
-text = input()
+text = input('Enter the text to be decrypted: ')
 lst = []
 for i in range(0,len(text)-1,2):
     lst.append(text[i]+text[i+1])

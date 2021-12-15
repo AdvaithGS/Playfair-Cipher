@@ -1,6 +1,6 @@
 from grid import get_letter, get_coords
 
-text = input().replace(' ','').lower()
+text = input('Enter text to be encoded: ').replace(' ','').lower()
 x = None
 for i in range(len(text)-1):
     if text[i] == text[i+1] and i%2 == 0:
